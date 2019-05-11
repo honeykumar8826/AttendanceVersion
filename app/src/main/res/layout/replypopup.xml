@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+   >
+
+ <!--   <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/cancel"
+        android:layout_marginEnd="20dp"
+       android:layout_alignParentEnd="true"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/close"
+        />-->
+
+  <!--<RelativeLayout
+      android:id="@+id/slidebar"
+      android:layout_width="match_parent"
+      android:layout_height="295dp"
+      android:layout_below="@+id/cancel"
+      android:layout_marginLeft="16dp"
+      android:layout_marginRight="16dp"
+      android:layout_marginTop="10dp"
+
+
+      android:backgroundTint="#fff">-->
+
+    <ScrollView
+        android:id="@+id/syn_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/syn_main_layout"
+            >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_space"
+                android:layout_width="300dp"
+                android:layout_height="240dp"
+                android:layout_centerInParent="true"
+
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="6dp"
+                android:elevation="2dp"
+               app:cardBackgroundColor="#0AA2FD"
+
+                app:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:id="@+id/l1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="1dp"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/radio_button_relative1"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="25dp"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="5dp"
+                            android:padding="3dp"
+                            android:text="Acept Or Reject"
+                            android:textSize="16sp"
+                            android:textColor="#ffffff"/>
+
+                        <ImageView
+
+                            android:id="@+id/cancel"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginTop="8dp"
+                            android:src="@drawable/close"
+
+                            />
+
+
+                    </RelativeLayout>
+
+                    <!--<View
+            android:layout_below="@+id/radio_button_relative1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="0dp"
+            android:background="#B8B894" />-->
+
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/l2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/l1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="50dp"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                  >
+
+                    <RelativeLayout
+                        android:id="@+id/radio_button_relative2"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="40dp"
+
+
+                        >
+
+                        <Button
+                            android:id="@+id/approve_leave"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+
+                            android:layout_centerHorizontal="true"
+                            android:text="APPROVE LEAVE"
+
+                            android:layout_marginEnd="15dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="13dp"
+
+                            android:background="@drawable/corner"
+
+
+                            android:textColor="#ffffff"
+                            />
+
+
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/l3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/l2"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="130dp"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/radio_button_relative3"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="40dp"
+
+
+                        >
+
+                        <Button
+                            android:id="@+id/reject_leave"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+
+                            android:layout_centerHorizontal="true"
+                            android:text="REJECT LEAVE"
+
+                            android:layout_marginEnd="15dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="13dp"
+
+                            android:background="@drawable/corner_reject"
+
+
+                            android:textColor="#ffffff"
+                            />
+
+
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

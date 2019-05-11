@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.attendnce.cloudanalogy.attendancev1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/cca"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/cca"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppThemeNoActionBar" >
+        <activity
+            android:name="com.attendnce.cloudanalogy.attendancev1.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.attendnce.cloudanalogy.attendancev1.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name="com.attendnce.cloudanalogy.attendancev1.UserActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name="com.attendnce.cloudanalogy.attendancev1.PhotoUpload"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name="com.attendnce.cloudanalogy.attendancev1.InternetUnavailable"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity android:name="com.attendnce.cloudanalogy.attendancev1.AttendanceList" />
+        <activity
+            android:name="com.attendnce.cloudanalogy.attendancev1.ApplyLeaveActivity"
+            android:label=" "
+            android:parentActivityName="com.attendnce.cloudanalogy.attendancev1.UserActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.attendnce.cloudanalogy.attendancev1.HolidaysActivity" />
+        <activity android:name="com.attendnce.cloudanalogy.attendancev1.LeaveStatusCheck" />
+        <activity
+            android:name="com.attendnce.cloudanalogy.attendancev1.LeaveTab"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.attendnce.cloudanalogy.attendancev1.CompanyRule" />
+        <activity android:name="com.attendnce.cloudanalogy.attendancev1.BirtdayAndAniversary" />
+        <activity
+            android:name="com.attendnce.cloudanalogy.attendancev1.MyTeam"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.attendnce.cloudanalogy.attendancev1.AttendanceMyTeamMember" />
+        <activity android:name="com.attendnce.cloudanalogy.attendancev1.TestingActivity" />
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.attendnce.cloudanalogy.attendancev1.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

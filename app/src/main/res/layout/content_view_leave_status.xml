@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+    <ScrollView
+        android:id="@+id/childScroll_task"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="30dp"
+            app:cardCornerRadius="12sp"
+            android:elevation="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:background="@drawable/corner_task_fold"
+
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:text="Leave Status"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+
+                    <ImageView
+                        android:id="@+id/cross"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/crossctm"/>
+
+                </RelativeLayout>
+
+
+
+                <TextView
+                    android:id="@+id/f1status"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/transparent_black_percent_65"
+                    android:layout_marginLeft="16sp"
+                    android:text="Status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+
+                    android:id="@+id/fstatus"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="16sp"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <View
+
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent_black_percent_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    >
+
+                </View>
+
+                <TextView
+                    android:id="@+id/f2subject"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/transparent_black_percent_65"
+                    android:layout_marginLeft="16sp"
+                    android:text="Subject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/fsubject"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="16sp"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent_black_percent_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    >
+
+                </View>
+                <TextView
+                    android:id="@+id/f3applieddate"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/transparent_black_percent_65"
+                    android:layout_marginLeft="16sp"
+                    android:text="Applied Date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/fapplieddate"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="16sp"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent_black_percent_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    >
+
+                </View>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/transparent_black_percent_65"
+                    android:layout_marginLeft="16sp"
+                    android:text="From"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/ffrom"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="16sp"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent_black_percent_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    >
+
+                </View>
+
+
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/transparent_black_percent_65"
+                    android:layout_marginLeft="16sp"
+                    android:text="To"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/fto"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="16sp"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent_black_percent_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    >
+
+                </View>
+
+
+
+
+
+                <TextView
+                    android:id="@+id/f4leavetype"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/transparent_black_percent_65"
+                    android:layout_marginLeft="16sp"
+                    android:text="Leave Type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/fleavetype"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="16sp"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent_black_percent_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    >
+
+                </View>
+                <TextView
+                    android:id="@+id/f5tlapproval"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/transparent_black_percent_65"
+                    android:layout_marginLeft="16sp"
+                    android:text="TL Approval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/ftlapproval"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="16sp"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent_black_percent_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    >
+
+                </View>
+                <TextView
+                    android:id="@+id/f6hrapporval"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/transparent_black_percent_65"
+                    android:layout_marginLeft="16sp"
+                    android:text="HR Approval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/fhrapporval"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="16sp"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent_black_percent_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    >
+
+                </View>
+                <TextView
+                    android:id="@+id/f1description"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/transparent_black_percent_65"
+                    android:layout_marginLeft="16sp"
+                    android:text="Description:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/fdescription"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="16sp"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent_black_percent_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    >
+
+                </View>
+                <!--<TextView
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/transparent_black_percent_65"
+                    android:layout_marginLeft="16sp"
+                    android:text="Description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/description_task_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="16sp"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"/>-->
+
+
+
+            </LinearLayout>
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

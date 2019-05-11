@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LeaveSummaryFragement">
+
+    <!--   &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="@string/hello_blank_fragment" />
+
+   </FrameLayout>-->
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/android_card_view_example"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:id="@+id/cardlyt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/cardview_list_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:paddingBottom="5dp"
+                            android:text="Total Leaves"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/total_leave"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:paddingBottom="5dp"
+                            android:text="30"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/cardview_list_title1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:paddingBottom="5dp"
+                            android:text="Holidays"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/holiday"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:paddingBottom="5dp"
+                            android:text="9"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/cardview_list_title2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:paddingBottom="5dp"
+                            android:text="Leaves Taken"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/leave_taken"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:paddingBottom="5dp"
+                            android:text="1"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/cardview_list_title3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:paddingBottom="5dp"
+                            android:text="Remaining Leaves"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/remaining_leave"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:paddingBottom="5dp"
+                            android:text="29"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/android_card_view_example"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart"
+                    android:padding="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignEnd="@+id/piechart"
+                    android:layout_alignRight="@+id/piechart"
+                    android:layout_alignBottom="@+id/piechart"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginBottom="2dp"
+                    android:src="@android:drawable/ic_dialog_email"
+                    app:elevation="6dp"
+                    app:layout_anchorGravity="bottom|right|end"
+                    app:pressedTranslationZ="12dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

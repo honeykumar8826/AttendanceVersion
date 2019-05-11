@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/cancel"
+        android:layout_marginEnd="20dp"
+       android:layout_alignParentEnd="true"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/close"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true" />
+
+  <RelativeLayout
+      android:id="@+id/slidebar"
+      android:layout_width="match_parent"
+      android:layout_height="220dp"
+      android:layout_below="@+id/cancel"
+      android:layout_marginLeft="16dp"
+      android:layout_marginRight="16dp"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/corner"
+
+      android:backgroundTint="#fff">
+
+
+    <TextView
+        android:id="@+id/_none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:text="--None--"
+        android:textColor="#706e6b"
+        android:textSize="14dp" />
+
+    <View
+
+        android:id="@+id/l1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/_none"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:background="#c0c0c0" />
+    <!-- <item>Quarterly Reporting</item>
+        <item>Annual Tax Statements</item>
+        <item>Annual Compliance Review</item>
+        <item>Unit Certificate</item>-->
+    <TextView
+        android:id="@+id/current_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Current month"
+        android:textColor="#706e6b"
+        android:textSize="14dp" />
+
+    <View
+        android:id="@+id/l2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/current_month"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="5dp"
+        android:background="#c0c0c0" />
+
+    <TextView
+        android:id="@+id/last_thirtyDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Last 30 Days"
+        android:textColor="#706e6b"
+        android:textSize="14dp" />
+
+    <View
+        android:id="@+id/l3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/last_thirtyDays"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="5dp"
+
+        android:background="#c0c0c0" />
+
+    <TextView
+        android:id="@+id/last_three_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/l3"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Last Three Month"
+        android:textColor="#706e6b"
+        android:textSize="14dp" />
+
+    <View
+        android:id="@+id/l4"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/last_three_month"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="5dp"
+        android:background="#c0c0c0" />
+
+
+    <TextView
+
+        android:id="@+id/last_sixMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l4"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Last Six Month"
+        android:textColor="#706e6b"
+        android:textSize="14dp" />
+
+    <View
+        android:id="@+id/l5"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/last_sixMonth"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="5dp"
+        android:background="#c0c0c0" />
+
+
+    <TextView
+
+        android:id="@+id/lastOne_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l5"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Last One Year"
+        android:textColor="#706e6b"
+        android:textSize="14dp" />
+  </RelativeLayout>
+
+</RelativeLayout>

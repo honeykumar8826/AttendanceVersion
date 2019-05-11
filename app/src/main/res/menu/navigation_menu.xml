@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+</menu>-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+    <!--    <item
+            android:id="@+id/leaveapply"
+            android:icon="@drawable/leave_icon"
+            android:title=" Leave Apply" />-->
+        <item
+            android:id="@+id/everything_Leave"
+            android:icon="@drawable/leavelogo"
+            android:title="Leave" />
+
+
+        <item
+            android:id="@+id/holidays"
+            android:icon="@drawable/holidaylogo"
+            android:title="Holidays" />
+           <item
+        android:id="@+id/company_rule"
+        android:icon="@drawable/companyrulelogo"
+        android:title="Company Rule" />
+
+        <item
+            android:id="@+id/birtday_aniversary"
+            android:icon="@drawable/birthdaylogo"
+            android:title="Birthday And Aniversary" />
+        <item
+            android:id="@+id/myteam"
+            android:icon="@drawable/teamlogo"
+            android:title="My Team" />
+        <item
+            android:id="@+id/testing"
+            android:icon="@drawable/circular_leave_status"
+            android:title="Testing" />
+
+
+
+
+     <!--   <item
+            android:id="@+id/birthday_dateofjoining"
+            android:icon="@drawable/circular_leave_status"
+            android:title="Birthday Date of joining" />-->
+
+
+
+        <!--      <item
+              android:id="@+id/logout_drawer"
+              android:icon="@drawable/close"
+              android:title="Logout" />
+              <item
+                  android:id="@+id/opportunity"
+                  android:icon="@drawable/close"
+                  android:title="opportunity" />-->
+
+
+
+    </group>
+</menu>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/card_space_from_nav"
+        android:id="@+id/relative1">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginBottom="@dimen/contact_profile_card_marginbottom"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/nav_header_left_spacing"
+            android:layout_marginTop="@dimen/contact_profile_card_margintop"
+            app:cardCornerRadius="@dimen/contact_profile_card_radius"
+            app:cardElevation="3dp"
+            android:layout_marginLeft="@dimen/nav_header_left_spacing"
+            android:outlineAmbientShadowColor="@color/green_50">
+            <!--LINEAR LAYOUT FOR PROFILE PIC-->                            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/nav_header_left_spacing"
+                android:paddingRight="@dimen/nav_header_right_spacing">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="@dimen/contact_profile_top_margin_profile_pic"
+                    android:background="@drawable/logo1"
+
+                    >
+                         <ImageView
+                             android:layout_width="match_parent"
+                             android:layout_height="100dp"
+                             android:layout_centerInParent="true"
+                            android:id="@+id/logo1"
+                             android:textSize="22sp"
+                             />
+                </RelativeLayout>
+            </LinearLayout>
+            <!--LINEAR LAYOUT FOR PROFILE PIC-->
+
+            <!--LINEAR LAYOUT FOR PROFILE Name-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/nav_header_left_spacing"
+                android:paddingRight="@dimen/nav_header_right_spacing"
+                android:layout_marginTop="@dimen/contact_profile_card_margin_top_name">
+                <!-- <RelativeLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentLeft="true"
+                         android:text="@string/test_contact"
+                         android:textColor="@color/contact_profile_username_color"
+                         android:textSize="@dimen/contact_profile_username" />
+                 </RelativeLayout>-->
+            </LinearLayout>
+            <!--LINEAR LAYOUT FOR PROFILE Name-->
+            <!--LINEAR LAYOUT FOR PROFILE Detail-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/nav_header_left_spacing"
+                android:paddingRight="@dimen/nav_header_right_spacing"
+                android:layout_marginTop="@dimen/contact_profile_userdetail_margin_top">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:id="@+id/imp_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="Republic Day"
+                        android:textColor="@color/contact_profile_userdetail_color"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/imp_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:text="2018-10-03"
+                        android:layout_marginEnd="20dp"
+                        android:textColor="@color/contact_profile_userdetail_color"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!--LINEAR LAYOUT FOR PROFILE Detail-->
+            <!--   <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:paddingLeft="@dimen/nav_header_left_spacing"
+                   android:paddingRight="@dimen/nav_header_right_spacing"
+                   android:layout_marginTop="@dimen/contact_profile_card_margin_button_top">
+               &lt;!&ndash;    <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="25dp">
+                       <Button
+                           android:layout_width="100dp"
+                           android:layout_height="40dp"
+                           android:text="@string/timeline"
+                           android:textSize="@dimen/button_font_size"
+                           android:background="@drawable/corner"
+                           android:textColor="@color/button_text"
+                           android:gravity="center"
+                           android:layout_alignParentRight="true"
+                           android:id="@+id/timeline"
+
+
+
+
+                           />
+                   </RelativeLayout>&ndash;&gt;
+               </LinearLayout>-->
+        </android.support.v7.widget.CardView>
+
+        />
+    </RelativeLayout>
+</RelativeLayout>

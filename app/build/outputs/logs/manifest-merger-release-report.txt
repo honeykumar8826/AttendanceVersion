@@ -1,0 +1,358 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:2:1-63:12
+MERGED from [com.android.support:design:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/7c159b66d418b19ddb91b713b75096a2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/f14e9336903e2993ff2503323c0490df/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/8c1896d5a4aa0d59680c74427185e06c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1d47954715104af09a9e24c257169489/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/6de928c49240cf03222477841c886e37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/dd0f2e0bcac8a72e69741d2b2691aa77/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/a1f8d2e83769274f8fc025ec77385340/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.1.aar/4a47f148ab9af83ce6064779c44124fa/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/80012c9db1c87d2caabce4584a621c03/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/9b398245231a727215864113ac5959e9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/69c40d3382255bd1857ea22b59118741/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/c9cd32f05b918ffd4488fac2a36a73bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/9750c24acd3d341ec3bfd56df5f234a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.sharish:ShimmerRecyclerView:v1.3] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/ShimmerRecyclerView-v1.3.aar/d6cb195d2e0480e66f2e074d2c531b87/AndroidManifest.xml:18:1-28:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/3fb8caea0478df51ec85f6d98636bd1b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/39e33ace2405e5b79b2d5ed9f6515913/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/27e3418391c5336db41b570c1c8bebbe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ae70e1220afff322e62b930d93c20561/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/cea70ea05fe08b132351066b3f745260/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/82a50b8f4780a078330e517754e49a67/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/890a9000ff39807a905b75b490e5822d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/2659804f4619b686b2c43687468e0463/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/9edadce9e6e6889f17b97ff703c1c33a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/6f7c85cabe0420044a1f0fc4c43d3855/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/976b298b1ba26f3a3483f898fc57112b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/763b9c575752668d052a91157f568a31/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e2164a8e1e831a1a6d8db3e71166650e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/3c4da1cfaa62afa606db51505f11d993/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/7a566f238e423ffe3c781a8d82957c5b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/2c3b9a6e7a7a69235c1689a18aaee6ba/AndroidManifest.xml:2:1-11:12
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/circularimageview-3.2.0.aar/96b6593a39f75d7c69b891cb043c59ed/AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/f2fd9ae274b5fbf54cdd041745124ce1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.ramotion.foldingcell:folding-cell:1.2.2] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/folding-cell-1.2.2.aar/f889f269a9c4276cad9e650015a5c72e/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e757d05b06c26b2edf9fa4fd162b60a1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/5b2689250543400a55f670c4b1586f48/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ca9154e60f990986bb0a61f4ca68468d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/5d9f690d9f699657096961da86c1a7bc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/46f4d81162570792e70944a386801890/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6dc81a3720b1eef4861ba63bb380097b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5efe282951149c884e2c93704a6341d2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2e0fda9f6dcdb514b2bdfe7445e0d784/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5d6d9c81bc1c5aca1158394307676b2b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/579d1b8499fa6aefbe0c09cb389b14ea/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a57d0482285d98a031f917c6957d0995/AndroidManifest.xml:17:1-22:12
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/shimmerlayout-2.1.0.aar/df66e60d7b83d5c1f38f7e64e503afcd/AndroidManifest.xml:2:1-14:12
+INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:2:1-63:12
+	package
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:4:5-54
+		INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+		INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:2:1-63:12
+		INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:2:1-63:12
+		INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:8:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:9:22-77
+application
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:11:5-61:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/dd0f2e0bcac8a72e69741d2b2691aa77/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/dd0f2e0bcac8a72e69741d2b2691aa77/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/80012c9db1c87d2caabce4584a621c03/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/80012c9db1c87d2caabce4584a621c03/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/9b398245231a727215864113ac5959e9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/9b398245231a727215864113ac5959e9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/69c40d3382255bd1857ea22b59118741/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/69c40d3382255bd1857ea22b59118741/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e2164a8e1e831a1a6d8db3e71166650e/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e2164a8e1e831a1a6d8db3e71166650e/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/3c4da1cfaa62afa606db51505f11d993/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/3c4da1cfaa62afa606db51505f11d993/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/2c3b9a6e7a7a69235c1689a18aaee6ba/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/2c3b9a6e7a7a69235c1689a18aaee6ba/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/f2fd9ae274b5fbf54cdd041745124ce1/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/f2fd9ae274b5fbf54cdd041745124ce1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e757d05b06c26b2edf9fa4fd162b60a1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e757d05b06c26b2edf9fa4fd162b60a1/AndroidManifest.xml:22:5-23:19
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/shimmerlayout-2.1.0.aar/df66e60d7b83d5c1f38f7e64e503afcd/AndroidManifest.xml:12:5-20
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/shimmerlayout-2.1.0.aar/df66e60d7b83d5c1f38f7e64e503afcd/AndroidManifest.xml:12:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e2164a8e1e831a1a6d8db3e71166650e/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:14:9-41
+	tools:ignore
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:18:9-48
+	android:roundIcon
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:15:9-42
+	android:icon
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:13:9-37
+	android:allowBackup
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:17:9-51
+activity#com.attendnce.cloudanalogy.attendancev1.SplashActivity
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:19:9-28:20
+	android:screenOrientation
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:21:13-49
+	android:theme
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:22:13-55
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:20:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:26:27-74
+activity#com.attendnce.cloudanalogy.attendancev1.LoginActivity
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:29:9-32:58
+	android:screenOrientation
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:31:13-49
+	android:theme
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:32:13-55
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:30:13-42
+activity#com.attendnce.cloudanalogy.attendancev1.UserActivity
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:33:9-36:58
+	android:screenOrientation
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:35:13-49
+	android:theme
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:36:13-55
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:34:13-41
+activity#com.attendnce.cloudanalogy.attendancev1.PhotoUpload
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:37:9-40:58
+	android:screenOrientation
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:39:13-49
+	android:theme
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:40:13-55
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:38:13-40
+activity#com.attendnce.cloudanalogy.attendancev1.InternetUnavailable
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:41:9-43:58
+	android:theme
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:43:13-55
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:42:13-48
+activity#com.attendnce.cloudanalogy.attendancev1.AttendanceList
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:44:9-52
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:44:19-49
+activity#com.attendnce.cloudanalogy.attendancev1.ApplyLeaveActivity
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:45:9-49:47
+	android:parentActivityName
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:48:13-55
+	android:label
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:47:13-30
+	android:theme
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:46:13-47
+activity#com.attendnce.cloudanalogy.attendancev1.HolidaysActivity
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:50:9-54
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:50:19-51
+activity#com.attendnce.cloudanalogy.attendancev1.LeaveStatusCheck
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:51:9-54
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:51:19-51
+activity#com.attendnce.cloudanalogy.attendancev1.LeaveTab
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:52:9-54:52
+	android:screenOrientation
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:53:13-37
+activity#com.attendnce.cloudanalogy.attendancev1.CompanyRule
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:55:9-49
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:55:19-46
+activity#com.attendnce.cloudanalogy.attendancev1.BirtdayAndAniversary
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:56:9-58
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:56:19-55
+activity#com.attendnce.cloudanalogy.attendancev1.MyTeam
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:57:9-58:52
+	android:screenOrientation
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:58:13-49
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:57:19-41
+activity#com.attendnce.cloudanalogy.attendancev1.AttendanceMyTeamMember
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:59:9-60
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:59:19-57
+activity#com.attendnce.cloudanalogy.attendancev1.TestingActivity
+ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:60:9-62
+	android:name
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml:60:19-50
+uses-sdk
+INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/7c159b66d418b19ddb91b713b75096a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/7c159b66d418b19ddb91b713b75096a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/f14e9336903e2993ff2503323c0490df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/f14e9336903e2993ff2503323c0490df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/8c1896d5a4aa0d59680c74427185e06c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/8c1896d5a4aa0d59680c74427185e06c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1d47954715104af09a9e24c257169489/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1d47954715104af09a9e24c257169489/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/6de928c49240cf03222477841c886e37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/6de928c49240cf03222477841c886e37/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/dd0f2e0bcac8a72e69741d2b2691aa77/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/dd0f2e0bcac8a72e69741d2b2691aa77/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/a1f8d2e83769274f8fc025ec77385340/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/a1f8d2e83769274f8fc025ec77385340/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.1.aar/4a47f148ab9af83ce6064779c44124fa/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.1.aar/4a47f148ab9af83ce6064779c44124fa/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/80012c9db1c87d2caabce4584a621c03/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/80012c9db1c87d2caabce4584a621c03/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/9b398245231a727215864113ac5959e9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/9b398245231a727215864113ac5959e9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/69c40d3382255bd1857ea22b59118741/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/69c40d3382255bd1857ea22b59118741/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/c9cd32f05b918ffd4488fac2a36a73bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/c9cd32f05b918ffd4488fac2a36a73bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/9750c24acd3d341ec3bfd56df5f234a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/9750c24acd3d341ec3bfd56df5f234a1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.sharish:ShimmerRecyclerView:v1.3] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/ShimmerRecyclerView-v1.3.aar/d6cb195d2e0480e66f2e074d2c531b87/AndroidManifest.xml:24:5-26:41
+MERGED from [com.github.sharish:ShimmerRecyclerView:v1.3] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/ShimmerRecyclerView-v1.3.aar/d6cb195d2e0480e66f2e074d2c531b87/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/3fb8caea0478df51ec85f6d98636bd1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/3fb8caea0478df51ec85f6d98636bd1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/39e33ace2405e5b79b2d5ed9f6515913/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/39e33ace2405e5b79b2d5ed9f6515913/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/27e3418391c5336db41b570c1c8bebbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/27e3418391c5336db41b570c1c8bebbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ae70e1220afff322e62b930d93c20561/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ae70e1220afff322e62b930d93c20561/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/cea70ea05fe08b132351066b3f745260/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/cea70ea05fe08b132351066b3f745260/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/82a50b8f4780a078330e517754e49a67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/82a50b8f4780a078330e517754e49a67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/890a9000ff39807a905b75b490e5822d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/890a9000ff39807a905b75b490e5822d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/2659804f4619b686b2c43687468e0463/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/2659804f4619b686b2c43687468e0463/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/9edadce9e6e6889f17b97ff703c1c33a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/9edadce9e6e6889f17b97ff703c1c33a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/6f7c85cabe0420044a1f0fc4c43d3855/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/6f7c85cabe0420044a1f0fc4c43d3855/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/976b298b1ba26f3a3483f898fc57112b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/976b298b1ba26f3a3483f898fc57112b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/763b9c575752668d052a91157f568a31/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/763b9c575752668d052a91157f568a31/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e2164a8e1e831a1a6d8db3e71166650e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e2164a8e1e831a1a6d8db3e71166650e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/3c4da1cfaa62afa606db51505f11d993/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/3c4da1cfaa62afa606db51505f11d993/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/7a566f238e423ffe3c781a8d82957c5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/7a566f238e423ffe3c781a8d82957c5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/2c3b9a6e7a7a69235c1689a18aaee6ba/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/2c3b9a6e7a7a69235c1689a18aaee6ba/AndroidManifest.xml:7:5-43
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/circularimageview-3.2.0.aar/96b6593a39f75d7c69b891cb043c59ed/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/circularimageview-3.2.0.aar/96b6593a39f75d7c69b891cb043c59ed/AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/f2fd9ae274b5fbf54cdd041745124ce1/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/f2fd9ae274b5fbf54cdd041745124ce1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.ramotion.foldingcell:folding-cell:1.2.2] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/folding-cell-1.2.2.aar/f889f269a9c4276cad9e650015a5c72e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.ramotion.foldingcell:folding-cell:1.2.2] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/folding-cell-1.2.2.aar/f889f269a9c4276cad9e650015a5c72e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e757d05b06c26b2edf9fa4fd162b60a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e757d05b06c26b2edf9fa4fd162b60a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/5b2689250543400a55f670c4b1586f48/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/5b2689250543400a55f670c4b1586f48/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ca9154e60f990986bb0a61f4ca68468d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ca9154e60f990986bb0a61f4ca68468d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/5d9f690d9f699657096961da86c1a7bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/5d9f690d9f699657096961da86c1a7bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/46f4d81162570792e70944a386801890/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/46f4d81162570792e70944a386801890/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6dc81a3720b1eef4861ba63bb380097b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6dc81a3720b1eef4861ba63bb380097b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5efe282951149c884e2c93704a6341d2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5efe282951149c884e2c93704a6341d2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2e0fda9f6dcdb514b2bdfe7445e0d784/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2e0fda9f6dcdb514b2bdfe7445e0d784/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5d6d9c81bc1c5aca1158394307676b2b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5d6d9c81bc1c5aca1158394307676b2b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/579d1b8499fa6aefbe0c09cb389b14ea/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/579d1b8499fa6aefbe0c09cb389b14ea/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a57d0482285d98a031f917c6957d0995/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a57d0482285d98a031f917c6957d0995/AndroidManifest.xml:20:5-44
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/shimmerlayout-2.1.0.aar/df66e60d7b83d5c1f38f7e64e503afcd/AndroidManifest.xml:8:5-10:41
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/shimmerlayout-2.1.0.aar/df66e60d7b83d5c1f38f7e64e503afcd/AndroidManifest.xml:8:5-10:41
+INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+		INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+		ADDED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+		INJECTED from /home/appinventiv/Desktop/AttendanceVersion2 - Copy - Copy/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/dd0f2e0bcac8a72e69741d2b2691aa77/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/dd0f2e0bcac8a72e69741d2b2691aa77/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/dd0f2e0bcac8a72e69741d2b2691aa77/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/dd0f2e0bcac8a72e69741d2b2691aa77/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/dd0f2e0bcac8a72e69741d2b2691aa77/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/dd0f2e0bcac8a72e69741d2b2691aa77/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/dd0f2e0bcac8a72e69741d2b2691aa77/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/dd0f2e0bcac8a72e69741d2b2691aa77/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/dd0f2e0bcac8a72e69741d2b2691aa77/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/80012c9db1c87d2caabce4584a621c03/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/80012c9db1c87d2caabce4584a621c03/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/80012c9db1c87d2caabce4584a621c03/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/80012c9db1c87d2caabce4584a621c03/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/69c40d3382255bd1857ea22b59118741/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/69c40d3382255bd1857ea22b59118741/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/appinventiv/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/69c40d3382255bd1857ea22b59118741/AndroidManifest.xml:24:13-58
